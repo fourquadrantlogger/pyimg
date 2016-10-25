@@ -14,7 +14,7 @@ def inverse_color(image):
     return img2
 
 # 加载图片
-img = cv2.imread('../img/kanaer.png')
+img = cv2.imread('../img/kanaer.jpg')
 
 # 转换为灰度图像
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
